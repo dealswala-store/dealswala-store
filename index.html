@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DealsWala | Online Fashion Store</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f8f9fa; color: #222; }
+    header { background: #111; color: #fff; padding: 16px 20px; text-align: center; position: sticky; top: 0; z-index: 10; }
+    header h1 { font-size: 1.5rem; letter-spacing: 1px; }
+    header p { font-size: 0.85rem; color: #ffc107; margin-top: 4px; }
+    .hero { background: linear-gradient(135deg, #ff416c, #ff4b2b); color: white; text-align: center; padding: 40px 20px; }
+    .hero h2 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero p { font-size: 1rem; opacity: 0.95; }
+    .container { max-width: 1100px; margin: 30px auto; padding: 0 16px; }
+    .section-title { text-align: center; margin-bottom: 24px; font-size: 1.4rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-4px); }
+    .card img { width: 100%; height: 240px; object-fit: cover; }
+    .card-body { padding: 16px; }
+    .card-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; }
+    .price { color: #e63946; font-size: 1.15rem; font-weight: bold; margin-bottom: 12px; }
+    .price span { color: #888; text-decoration: line-through; font-size: 0.9rem; font-weight: normal; margin-left: 6px; }
+    .btn { display: block; width: 100%; text-align: center; background: #25D366; color: white; text-decoration: none; padding: 10px; border-radius: 8px; font-weight: 600; }
+    .btn:hover { background: #1ebe5d; }
+    footer { background: #111; color: #aaa; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DEALSWALA</h1>
+    <p>Trending Fashion • Best Deals • Fast Delivery</p>
+  </header>
+
+  <section class="hero">
+    <h2>Flat 50% OFF on New Arrivals</h2>
+    <p>Upgrade your wardrobe with stylish & affordable fashion.</p>
+  </section>
+
+  <div class="container">
+    <h3 class="section-title">Featured Collection</h3>
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" alt="Classic Oversized T-Shirt">
+        <div class="card-body">
+          <div class="card-title">Classic Oversized T-Shirt</div>
+          <div class="price">₹499 <span>₹999</span></div>
+          <a class="btn" href="https://wa.me/919999999999?text=Hi%20DealsWala,%20I%20want%20to%20order%20Classic%20Oversized%20T-Shirt%20(₹499)" target="_blank">Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600" alt="Floral Summer Kurti">
+        <div class="card-body">
+          <div class="card-title">Floral Summer Dress</div>
+          <div class="price">₹799 <span>₹1,599</span></div>
+          <a class="btn" href="https://wa.me/919999999999?text=Hi%20DealsWala,%20I%20want%20to%20order%20Floral%20Summer%20Dress%20(₹799)" target="_blank">Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Sporty Casual Sneakers">
+        <div class="card-body">
+          <div class="card-title">Sporty Casual Sneakers</div>
+          <div class="price">₹1,199 <span>₹2,499</span></div>
+          <a class="btn" href="https://wa.me/919999999999?text=Hi%20DealsWala,%20I%20want%20to%20order%20Sporty%20Casual%20Sneakers%20(₹1,199)" target="_blank">Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" alt="Minimalist Wrist Watch">
+        <div class="card-body">
+          <div class="card-title">Minimalist Wrist Watch</div>
+          <div class="price">₹899 <span>₹1,799</span></div>
+          <a class="btn" href="https://wa.me/919999999999?text=Hi%20DealsWala,%20I%20want%20to%20order%20Minimalist%20Wrist%20Watch%20(₹899)" target="_blank">Order on WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2026 DealsWala Online Fashion Store. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
